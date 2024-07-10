@@ -1,0 +1,46 @@
+/* Game.css */
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #bfb474;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.square:focus {
+  background-color: #254b84;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+ol {
+  padding-left: 30px;
+}
